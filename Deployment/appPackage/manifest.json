@@ -27,7 +27,7 @@
   "composeExtensions": [],
   "configurableTabs": [
     {
-      "configurationUrl": "https://<<appDomain>>/index.html#/config",
+      "configurationUrl": "https://uvvcteoc.azurewebsites.net/index.html#/config",
       "canUpdateConfiguration": true,
       "scopes": [
         "team",
@@ -39,8 +39,8 @@
     {
       "entityId": "index",
       "name": "Teams EOC",
-      "contentUrl": "https://<<appDomain>>/index.html#/tab",
-      "websiteUrl": "https://<<websiteUrl>>",
+      "contentUrl": "https://uvvcteoc.azurewebsites.net/index.html#/tab",
+      "websiteUrl": "https://unitedveincenters.sharepoint.com/sites/TeamsEmergencyOperationsCenter",
       "scopes": [
         "personal"
       ]
@@ -51,10 +51,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "uvvcteoc"
   ],
   "webApplicationInfo": {
-    "id": "<<clientId>>",
-    "resource": "api://<<appDomain>>/<<clientId>>"
+    "id": "ee1fe13f-62b2-43c7-8764-0be087659b33",
+    "resource": "api://uvvcteoc/ee1fe13f-62b2-43c7-8764-0be087659b33"
   }
 }
